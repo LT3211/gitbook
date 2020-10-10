@@ -1,0 +1,43 @@
+{
+  "title": "令狐冲的技术沉淀",
+  "description": "平凡的世界",
+  "language": "zh-hans",
+  "plugins": [ 
+	"chapter-fold",
+	"code",
+	"-sharing",
+	"sharing-plus",
+	"page-footer-ex"
+  ],
+   "pluginsConfig": {
+        "sharing": {
+            "douban": false,
+            "facebook": false,
+            "google": false,
+            "hatenaBookmark": false,
+            "instapaper": false,
+            "line": false,
+            "linkedin": false,
+            "messenger": false,
+            "pocket": false,
+            "qq": false,
+            "qzone": false,
+            "stumbleupon": false,
+            "twitter": false,
+            "viber": false,
+            "vk": false,
+            "weibo": false,
+            "whatsapp": false,
+            "all": [
+                "facebook", "google", "twitter",
+                "weibo", "qq", "linkedin","douban"
+            ]
+        },
+		"page-footer-ex": {
+            "copyright": "By [LT](https://github.com/LT3211)，使用[知识共享 署名-相同方式共享 4.0协议](https://creativecommons.org/licenses/by-sa/4.0/)发布",
+            "markdown": true,
+            "update_label": "此页面修订于：",
+            "update_format": "YYYY-MM-DD HH:mm:ss"
+        }
+    }
+}
